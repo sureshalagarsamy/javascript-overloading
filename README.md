@@ -6,7 +6,7 @@ You have to check inside the function how many arguments have been passed and wh
 
 > How to create function overloading in JavaScript?
 
-The example for function overloadingnot supporting in JavaScript as give below.
+The example for function overloading not supporting in JavaScript as give below.
 
 ```javascript
 function sum(a, b) {
