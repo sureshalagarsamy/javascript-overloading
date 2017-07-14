@@ -37,7 +37,7 @@ We can achieve using the several different techniques as give below.
 ```javascript
 function sum() {
    if (arguments.length==1) {
-	return sum(arguments[0]);
+	return funcOne(arguments[0]);
    } else if (arguments.length==2){
 	return funcTwo(arguments[0],  arguments[1]);
    }
@@ -45,9 +45,12 @@ function sum() {
 function funcTwo(a,b) {
    alert(a+b);
 }
-function sum(c) {
+function funcOne(c) {
    alert(c);
 }
+
+sum(3);		// The output is 3.
+sum(2,4);	// The output is 6.
 ```
 
 But better to use different functions unless if you don't feel any difficulties on the above solution.
