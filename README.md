@@ -31,3 +31,23 @@ We can achieve using the several different techniques as give below.
 * Using optional arguments like x=x || 'default'
 * Using different name in the first place
 * We can use the arguments array to access any given argument by using arguments[i]
+
+### Solution
+
+```javascript
+function sum() {
+	if (arguments.length==1) {
+		return funcOne(arguments[0]);
+	} else if (arguments.length==2){
+		return funcTwo(arguments[0],  arguments[1]);
+	}
+}
+function funcTwo(a,b) {
+	alert(a+b);
+}
+function sum(c) {
+	alert(c);
+}
+```
+
+But better to use different functions unless if you don't feel any difficulties on the above solution.
