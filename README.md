@@ -36,17 +36,17 @@ We can achieve using the several different techniques as give below.
 
 ```javascript
 function sum() {
-	if (arguments.length==1) {
-		return funcOne(arguments[0]);
-	} else if (arguments.length==2){
-		return funcTwo(arguments[0],  arguments[1]);
-	}
+   if (arguments.length==1) {
+	return funcOne(arguments[0]);
+   } else if (arguments.length==2){
+	return funcTwo(arguments[0],  arguments[1]);
+   }
 }
 function funcTwo(a,b) {
-	alert(a+b);
+   alert(a+b);
 }
 function sum(c) {
-	alert(c);
+   alert(c);
 }
 ```
 
